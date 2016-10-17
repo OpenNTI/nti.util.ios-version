@@ -1,6 +1,6 @@
 {
   "name": "nti-util-ios-version",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get the iOS version or null if not iOS",
   "main": "lib/index.js",
   "files": [
