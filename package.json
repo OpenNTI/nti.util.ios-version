@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://repos.nextthought.com/git/nti.util.ios-version"
+    "url": "https://github.com/NextThought/nti.util.ios-version.git"
   },
   "keywords": [
     "ios",
