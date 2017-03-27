@@ -10,9 +10,7 @@ export default {
 	dest: 'lib/index.js',
 	sourceMap: true,
 	exports: 'named',
-	external: [
-		'debug'
-	],
+	external: [],
 	plugins: [
 		babel({ exclude: 'node_modules/**' }),
 		commonjs({
