@@ -1,6 +1,7 @@
+/* eslint-env jest */
 describe('Tests', () => {
 
-	it ('Show tests running...', () => {
+	test ('Show tests running...', () => {
 		expect(true).toBe(true);
 	});
 
