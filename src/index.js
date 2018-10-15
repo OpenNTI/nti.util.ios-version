@@ -11,3 +11,5 @@ export default function iOSversion () {
 
 	return null;
 }
+
+export const isIOS = () => !!iOSversion();
