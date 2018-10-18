@@ -1,6 +1,6 @@
 {
   "name": "@nti/util-ios-version",
-  "version": "1.4.0-alpha",
+  "version": "1.4.0",
   "description": "Get the iOS version or null if not iOS",
   "main": "lib/index.js",
   "module": "src/index.js",
