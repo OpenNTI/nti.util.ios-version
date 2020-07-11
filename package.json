@@ -20,6 +20,11 @@
     "type": "git",
     "url": "https://github.com/NextThought/nti.util.ios-version.git"
   },
+  "eslintConfig": {
+    "env": {
+        "browser": true
+    }
+  },
   "keywords": [
     "ios",
     "version"
