@@ -22,7 +22,7 @@
   },
   "eslintConfig": {
     "env": {
-        "browser": true
+      "browser": true
     }
   },
   "keywords": [
