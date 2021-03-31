@@ -2,12 +2,8 @@
   "name": "@nti/util-ios-version",
   "version": "1.6.0-alpha",
   "description": "Get the iOS version or null if not iOS",
-  "main": ".index.js",
-  "module": "src/index.js",
-  "files": [
-    ".index.js",
-    "src"
-  ],
+  "main": "src/index.js",
+  "type": "module",
   "testEnvironment": "jsdom",
   "scripts": {
     "test": "lib-scripts test",
@@ -36,8 +32,5 @@
   "license": "UNLICENSED",
   "devDependencies": {
     "@nti/lib-scripts": "^2.0.0"
-  },
-  "dependencies": {
-    "esm": "^3.2.25"
   }
 }

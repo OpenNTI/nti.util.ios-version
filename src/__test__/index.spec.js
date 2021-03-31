@@ -1,5 +1,5 @@
 /* eslint-env jest */
-import iOSversion, { isIOS } from '../index';
+import iOSVersion, { isIOS } from '../index.js';
 
 describe('iOS detection', () => {
 	beforeEach(() => {
@@ -8,7 +8,7 @@ describe('iOS detection', () => {
 	});
 
 	test('iOSversion', () => {
-		expect(() => iOSversion()).not.toThrow();
+		expect(() => iOSVersion()).not.toThrow();
 		Object.defineProperty(navigator, 'platform', {
 			configurable: true,
 			value: 'iPhone',
@@ -17,7 +17,7 @@ describe('iOS detection', () => {
 			configurable: true,
 			value: 'OS 1_2_3',
 		});
-		expect(iOSversion()).toEqual([1, 2, 3]);
+		expect(iOSVersion()).toEqual([1, 2, 3]);
 	});
 
 	test('isIOS', () => {

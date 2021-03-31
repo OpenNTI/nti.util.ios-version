@@ -1,7 +1,7 @@
 /**
  * @returns {number[]} iOS version or null of not iOS
  */
-export default function iOSversion() {
+export default function iOSVersion() {
 	if (/iP(hone|od|ad)/.test(navigator.platform)) {
 		// supports iOS 2.0 and later: <http://bit.ly/TJjs1V>
 		let v = navigator.appVersion.match(/OS (\d+)_(\d+)_?(\d+)?/);
@@ -18,4 +18,4 @@ export default function iOSversion() {
 	return null;
 }
 
-export const isIOS = () => !!iOSversion();
+export const isIOS = () => !!iOSVersion();
